@@ -1,0 +1,41 @@
+/* General Style*/
+html {
+    font-family: 'sans serif';
+    font-size: 16px;
+    background-color: #CCFFFF;
+  }
+  
+  /* Card */
+  .card {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: #55FF55;
+    border: 5px solid #444444;
+    border-radius: 15px;
+  }
+  
+  .card article {
+    height: 200px;
+    background-color: #88FF88;
+    border: 2px #888888;
+    border-style: solid none;
+  }
+  
+  .card article img {
+    float: right;
+  }
+  
+  .card article p {
+    padding: 15px;
+    color: rgba(100,100,100, 0.8);
+  }
+  
+  .card header h2 {
+    text-align: center;
+  }
+  
+  .card footer p {
+    text-align: center;
+    margin: 8px;
+  }
