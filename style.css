@@ -1,0 +1,148 @@
+html {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+  background: #777777;
+  background: -moz-linear-gradient(top, #777777 0%, #1A1A1B 100%);
+  background: -webkit-linear-gradient(top, #777777 0%, #1A1A1B 100%);
+  background: linear-gradient(to bottom, #777777 0%, #1A1A1B 100%);
+  margin: 0;
+  height: 100vh;
+}
+
+#first-section {
+  height: 100vh;
+  background: #777777;
+  background: -moz-linear-gradient(top, #777777 0%, #1A1A1B 100%);
+  background: -webkit-linear-gradient(top, #777777 0%, #1A1A1B 100%);
+  background: linear-gradient(to bottom, #777777 0%, #1A1A1B 100%);
+  margin: 0;
+  height: 100vh;
+}
+
+#second-section {
+  margin-top: 15em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+
+  background:
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px;
+  text-align: center;
+  }
+
+
+
+/** red border for debugging
+* {
+  border: 2px #ff0000;
+  border-style: solid none;
+}
+*/
+
+/* logos*/
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 64px;
+  height: 64px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.social-button:hover {
+    filter: brightness(80%); /* Reduce the brightness when hovered */
+}
+
+
+/*CSS for the image block with text*/
+blockquote {
+  margin: 3em auto;
+  margin-top: 8em;
+  padding: 3em;
+  background: linear-gradient(white, white) padding-box, url(https://wallpaperaccess.com/full/2082145.jpg) border-box  0 / cover;
+  border: 2em solid transparent;
+  box-shadow: 5px 3px 30px black;
+  font-size: 1.4em;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  width: 40%;
+}
+
+#about-me {
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+
+
+
+/* Project display*/
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em;
+}
+
+.project-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  background: #fff;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card h3 {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.project-card p {
+  padding: 1em;
+  font-size: 1em;
+}
+
+#second-section h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: orange;
+  margin: 2em auto;
+  background-color: white;
+  display: inline-block;
+  padding: 0.4em;
+  border-radius: 8px;
+  border: 9px solid lightskyblue;
+}
+
+
+
