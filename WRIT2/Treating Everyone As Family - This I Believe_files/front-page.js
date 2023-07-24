@@ -1,1 +1,0 @@
-(function($){$('.teaser-wrapper li').click(function(){window.location=$(this).find('a').attr('href');});})(jQuery);
