@@ -129,7 +129,7 @@ blockquote {
 
 .project-card img {
   width: 100%;
-  height: 200px;  /* Set a consistent height */
+  height: auto;  /* Set the height to auto for responsive images */
   object-fit: cover; /* Ensure the image covers the space without distortion */
   display: block;
   margin: 0 auto;
@@ -150,14 +150,38 @@ blockquote {
 
 #second-section h2 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 4vw; /* Use viewport width unit for responsive font size */
   color: orange;
   background-color: white;
   display: inline-block;
   padding: 0.4em;
   border-radius: 8px;
-  border: 9px solid lightskyblue;
+  border: 0.9vw solid lightskyblue; /* Use viewport width unit for responsive border size */
 }
 
-
-
+/* Media queries for different display sizes */
+@media (max-width: 768px) {
+  /* Adjust the width and padding of the sections for smaller screens */
+  #first-section {
+    padding: 4em 0em 8em;
+  }
+  
+  #second-section {
+    padding: 3em 0em 6em;
+  }
+  
+  /* Adjust the width of the blockquote for smaller screens */
+  blockquote {
+    width: 80%;
+  }
+  
+  /* Adjust the font size of the project card headings for smaller screens */
+  .project-card h3 {
+    font-size: 1em;
+  }
+  
+  /* Adjust the font size of the project card paragraphs for smaller screens */
+  .project-card p {
+    font-size: 0.8em;
+  }
+}

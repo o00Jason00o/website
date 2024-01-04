@@ -1,71 +1,72 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>My Personal Website</title>
         <meta name="Biography" content="Jason Chen Biography">
-        <link rel="stylesheet" href = "style.css"/>
+        <link rel="stylesheet" href="style.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* BEGIN: Adjust sizes for social buttons */
+            .social-button img {
+                width: 50px;
+                height: 50px;
+            }
+            /* END: Adjust sizes for social buttons */
+            
+            /* BEGIN: Adjust sizes for project cards */
+            .project-card img {
+                width: 100%;
+                height: auto;
+            }
+            /* END: Adjust sizes for project cards */
+        </style>
     </head>
     <body>
-        
-
         <div id="first-section">
             <blockquote>
                 <h1 id="about-me">About me</h1>
                 <p>Hello! My name is Jason Chen, and I'm currently a second-year Computer Science student at UCSC with a passion for app development and artificial intelligence.
                      I will be open to participate in various projects. You can reach me through the contacts below!</p>
                 <p>Email : <a href="jchen598@ucsc.edu">jchen598@ucsc.edu</a></p>
-
-        
-        
             </blockquote>
 
             <div class="social-buttons">
-
                 <a href="mailto:“jchen598@ucsc.edu" class="social-button">
-                    <img src="https://icons.iconarchive.com/icons/martz90/circle/512/email-icon.png" size=50 width=50>
+                    <img src="https://icons.iconarchive.com/icons/martz90/circle/512/email-icon.png">
                 </a>
                 <a href="https://discordapp.com/users/Jason#6120" class="social-button">
-                    <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png" size=50 width=50>
+                    <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png">
                 </a>
                 <a href="https://github.com/o00Jason00o" class="social-button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" size=50 width=50>
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
                 </a>
                 <a href="https://www.linkedin.com/in/jason-chen-93571b273" class="social-button">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/640px-LinkedIn_icon_circle.svg.png" size=50 width=50>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/640px-LinkedIn_icon_circle.svg.png">
                 </a>
-
             </div>
-
         </div>
-        
-        
         
         <div id="second-section">
             <h2>My Projects</h2>
             <div class="project-container">
                 <div class="project-card">
-                    <img src="chatgpt-extension.png" alt="ChatGPT Web Extension" />
+                    <img src="chatgpt-extension.png" alt="ChatGPT Web Extension">
                     <h3><a href="https://github.com/o00Jason00o/ChatGPT-Web-Extension">ChatGPT Web Extension</a></h3>
                     <p>A Chromium extension integrating ChatGPT to provide instant responses on web pages. Made with JavaScript and the OpenAI API.</p>
                 </div>
                 <div class="project-card">
-                    <img src="cpp-ml.png" alt="Machine Learning Algorithms in C++" />
+                    <img src="cpp-ml.png" alt="Machine Learning Algorithms in C++">
                     <h3><a href="https://github.com/o00Jason00o/CPP-ML-From-Scratch">Machine Learning Algorithms in C++</a></h3>
                     <p>An in-depth exploration of fundamental machine learning algorithms implemented from the ground up in C++.<br><br>
                         A personal endeavor to expand my expertise in both C++ and Machine Learning.</p>
                     <p><strong>Note:</strong> This project is currently in its early development stages and is not yet fully functional.</p>
                 </div>   
                 <div class="project-card">
-                    <img src="weather-app.png" alt="Weather App" />
+                    <img src="weather-app.png" alt="Weather App">
                     <h3><a href="https://o00jason00o.github.io/weather-app/">Weather App</a></h3>
                     <p>A simple app made as a practice with HTML, CSS, and JavaScript.</p>
                 </div>
             </div>
         </div>
     </body>
-
 </html>
-
-
